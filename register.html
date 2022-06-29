@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+     <!-- Header -->
+     <header>
+        <section class="container">
+            <a href="home.html" class="logo">yum-yum 😋</a>
+
+            <nav class="navbar">
+                <a href="home.html">home</a>
+                <a href="about.html">about</a>
+                <a href="menu.html">menu</a>
+                <a href="order.html">orders</a>
+                <a href="contact.html">contact</a>
+            </nav>
+
+            <div class="list-icons">
+                <div class="fa-solid fa-magnifying-glass"></div>
+                <div class="fa-solid fa-cart-shopping"><span>(3)</span></div>
+                <div id="user-btn" class="fa-solid fa-user"></div>
+                <div id="user-menu" class="fa-solid fa-bars"></div>
+            </div>
+
+            <div class="profile">
+                <p>Nguyen Hieu</p>
+                <div class="container">
+                    <a href="profile.html">Profile</a>
+                    <a href="#">Logout</a>
+                </div>
+                <p><a href="login.html">login</a> or <a href="register.html">register</a></p>
+            </div>
+        </section>
+    </header>
+
+    <!-- Login Form -->
+    <section class="form-container">
+        <form class="form-content">
+            <h3>register now</h3>
+            <input type="text" placeholder="enter your name" name="name" id="name" required maxlength="50" class="box">
+            <input type="email" placeholder="enter your email" name="email" id="email" required maxlength="50" class="box">
+            <input type="text" placeholder="enter your number" name="number" id="number" required maxlength="50" class="box">
+            <input type="password" placeholder="enter your email" name="password" id="password" required maxlength="50" class="box">
+            <input type="password" placeholder="confirm your password" name="passwrod" id="password" required maxlength="50" class="box">
+            <input type="submit" value="Register Now" name="submit" class="submit">
+            <p>already have an account? <a href="login.html">login now</a></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <section class="box-container">
+            <div class="box">
+                <img src="./images/email-icon.png" alt="">
+                <h3>our email</h3>
+                <a href="">nguyenhieu11032002@gmail.com</a>
+                <a href="">hieudeptrai11032002@gmai.com</a>
+            </div>
+            <div class="box">
+                <img src="./images/clock-icon.png" alt="">
+                <h3>opening hours</h3>
+                <a href="">00:07am to 00:10pm</a>
+            </div>
+            <div class="box">
+                <img src="./images/map-icon.png" alt="">
+                <h3>our address</h3>
+                <a href="">mumbai, india -400104</a>
+            </div>
+            <div class="box">
+                <img src="./images/phone-icon.png" alt="">
+                <h3>our number</h3>
+                <a href="">+123-456-7890</a>
+                <a href="">+111-222-333-444</a>
+            </div>
+        </section>
+    </footer>
+
+    <div class="credit">
+        © copyright @ 2022 
+        <span>by mr. web designer</span> 
+        | all rights reserved!
+    </div>
+
+    <div class="loader">
+        <img src="./images/loader.gif" alt="">
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
